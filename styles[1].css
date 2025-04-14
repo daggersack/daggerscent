@@ -1,0 +1,69 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #fef3c7;
+  color: #374151;
+}
+.header {
+  background-color: #fde68a;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.header h1 {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+.header nav a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: #1f2937;
+}
+main {
+  padding: 2rem;
+}
+main h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.card {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+.card p {
+  padding: 0.5rem;
+  color: #6b7280;
+}
+.footer {
+  text-align: center;
+  padding: 2rem;
+  border-top: 1px solid #d1d5db;
+  font-size: 0.875rem;
+}
+.footer .socials {
+  margin-bottom: 0.5rem;
+}
+.footer .socials a {
+  margin: 0 0.5rem;
+  color: #374151;
+  text-decoration: none;
+}
